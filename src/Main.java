@@ -1,4 +1,4 @@
-import javax.swing.plaf.IconUIResource;
+
 import java.util.Scanner;
 
 //(Цикл while)
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        int a = 0;
+       int a = 0;
         int number;
 
         //System.out.println("Введите целые числа :");
@@ -16,16 +16,18 @@ public class Main {
         number = scanner.nextInt();
 
         while (number >= 0) {
-             a++;
+            a++;
             System.out.print("Введите число: ");
             number = scanner.nextInt();
         }
+
+
 
         System.out.println("Количество введенных чисел: " + a);
 
 }
 }
-       
+
 
 
 
